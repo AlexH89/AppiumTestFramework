@@ -17,11 +17,11 @@ Framework for Appium Tests
         
 - If you want to specify a specific platform (Android Emulator by default):
 
-        mvn clean verify -Dplatform=androidAppLocal site
+        mvn clean verify site -Dplatform=androidAppLocal
                 
 - If you want to specify a specific platform, platform name, platform version and device name:
 
-        mvn clean verify -Dplatform=androidAppLocal -Dplatform.name=Android -Dplatorm.version=9 -Ddevice.name=Nexus_5X_API_28 site
+        mvn clean verify site -Dplatform=androidAppLocal -Dplatform.name=Android -Dplatorm.version=9 -Ddevice.name=Nexus_5X_API_28
                 
 ### Reporting
 
