@@ -1,0 +1,10 @@
+androidAppLocal:
+  platformName: Android
+  platformVersion: "9"
+  deviceName: Nexus_5X_API_28
+  app: https://github.com/appium/java-client/blob/master/src/test/java/io/appium/java_client/ApiDemos-debug.apk?raw=true
+iOSAppLocal:
+  platformName: iOS
+  platformVersion: "11.2"
+  deviceName: iPhone_X
+  app: https://github.com/appium/java-client/blob/master/src/test/java/io/appium/java_client/UICatalog.app.zip?raw=true
