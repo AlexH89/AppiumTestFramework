@@ -7,8 +7,6 @@ Framework for Appium Tests
 
 ### How do I run tests?
 
-- Start Appium Server
-- Start Android emulator (or physical device)
 - To run the tests, execute the following Maven command ('site' is for generating the Allure report):
 
         mvn clean verify site
